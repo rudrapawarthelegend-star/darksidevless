@@ -9,7 +9,7 @@ import { connect } from 'cloudflare:sockets';
 let subPath = 'link';     // 节点订阅路径,不修改将使用uuid作为订阅路径
 let password = '578363';  // 主页密码,建议修改或添加 PASSWORD环境变量
 let proxyIP = 'api.jio.com.jio.uk:80';  // proxyIP 格式：ip、域名、ip:port、域名:port等,没填写port，默认使用443
-let yourUUID = '0d3f0bcf-8a00-4753-8466-3a464028bfe9'; // UUID,建议修改或添加环境便量
+let yourUUID = 'ededa1f6-848c-4040-b3a2-7b94cd253300'; // UUID,建议修改或添加环境便量
 let disabletro = false;  // 是否关闭trojan, 设置为true时关闭，false开启 
 
 // CDN 
